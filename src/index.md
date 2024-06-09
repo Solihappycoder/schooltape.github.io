@@ -8,6 +8,7 @@ hero:
   name: "Schooltape"
   text: "A free an open source extension for Schoolbox!"
   tagline: "Improving the Schoolbox experience for everyone"
+  image: /schooltape.svg
   actions:
     - theme: brand
       text: Install now!
