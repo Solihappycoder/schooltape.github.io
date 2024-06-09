@@ -37,6 +37,14 @@ export default defineConfig({
           { text: 'Contributing', link: '/contributing' },
           { text: 'Compare', link: '/compare' }
         ]
+      },
+      {
+        text: 'Ecosystem',
+        base: '/ecosystem',
+        items: [
+          { text: 'Plugins', link: '/plugins' },
+          { text: 'Snippets', link: '/snippets' }
+        ]
       }
     ],
 

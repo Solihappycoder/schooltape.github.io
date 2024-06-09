@@ -18,13 +18,20 @@ hero:
       link: /contributing
 
 features:
-  - title: Schoolbox Detection
+  - icon: 🔎
+    title: Schoolbox Detection
     details: Automatic detection of any Schoolbox instance!
-  - title: Theme Customisation
+  - icon: 🐱
+    title: Theme Customisation
     details: Save your eyes from the harsh white of Schoolbox.
-  - title: Plugin Support
+  - icon: 🔌
+    title: Plugin Support
     details: Built with a plugin system in mind, allowing for easy extensibility. 
-  - title: Snippet Ecosystem
+    link: /ecosystem/plugins
+    linkText: Explore Plugins
+  - icon: 📄
+    title: Snippet Ecosystem
     details: Schooltape has a growing ecosystem of snippets, allowing for easy CSS modifications.
+    link: /ecosystem/snippets
+    linkText: Explore Snippets
 ---
-
