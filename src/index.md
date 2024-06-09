@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+titleTemplate: false
+
 hero:
   name: "Schooltape"
   text: "A free an open source extension for Schoolbox!"
