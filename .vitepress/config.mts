@@ -34,7 +34,8 @@ export default defineConfig({
               { text: 'Safari', link: '/safari' }
             ]
           },
-          { text: 'Contributing', link: '/contributing' }
+          { text: 'Contributing', link: '/contributing' },
+          { text: 'Compare', link: '/compare' }
         ]
       }
     ],
