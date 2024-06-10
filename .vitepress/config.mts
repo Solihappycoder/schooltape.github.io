@@ -7,7 +7,19 @@ export default defineConfig({
   description: "A free an open source web extension for Schoolbox!",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'google-site-verification', content: 'MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY' }]
+    ['meta', { name: 'google-site-verification', content: 'MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HZBYCLKHJJ' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HZBYCLKHJJ');`
+    ]
   ],
   srcDir: './src',
   themeConfig: {
