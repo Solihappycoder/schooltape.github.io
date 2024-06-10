@@ -5,7 +5,10 @@ export default defineConfig({
   title: "Schooltape",
   titleTemplate: ':title - Schooltape',
   description: "A free an open source web extension for Schoolbox!",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'google-site-verification', content: 'MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY' }]
+  ],
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
