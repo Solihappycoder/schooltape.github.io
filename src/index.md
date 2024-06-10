@@ -35,3 +35,15 @@ features:
     link: /ecosystem/snippets
     linkText: Explore Snippets
 ---
+
+## Schooltape is <span style="color: var(--vp-c-brand-3)">_the only_</span> cross compatible web extension for Schoolbox
+
+Schooltape was built with the intention of improving the Schoolbox experience for everyone, regardless of their Schoolbox instance. Read more about how we compare [here](/compare).
+
+<!-- <div style="margin: auto; width: 100%; max-width: 900px; text-align: center;">
+  <video style="border-radius: 12px;" src="todo" controls></video>
+  <br />
+  <small>
+    A quick demonstration of Schooltape in action
+  </small>
+</div> -->
