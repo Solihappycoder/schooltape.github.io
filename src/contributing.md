@@ -7,7 +7,7 @@ If you haven't used Git before, I'd highly recommend reading [Pro Git](https://g
 
 1. Fork this repository
    - [What is a fork?](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-   - [Fork Schooltape](https://github.com/42Willow/schooltape/fork)
+   - [Fork Schooltape](https://github.com/schooltape/schooltape/fork)
 2. Clone your fork
    - Make sure you have [Git](https://git-scm.com/) installed
    - [What is cloning?](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
@@ -57,26 +57,26 @@ In this next section, we'll look into how you can make your own plugins, themes,
 
 ### Plugins
 
-1. [Open an issue](https://github.com/42Willow/schooltape/issues/new/choose) describing your plugin to get your idea approved
-2. Add your plugin to the [`plugins.json`](https://github.com/42Willow/schooltape/blob/main/src/plugins/plugins.json) file
-3. Create your plugin, a good example is [`timetable-labels`](https://github.com/42Willow/schooltape/blob/main/src/plugins/timetable-labels/timetable-labels.js)
+1. [Open an issue](https://github.com/schooltape/schooltape/issues/new/choose) describing your plugin to get your idea approved
+2. Add your plugin to the [`plugins.json`](https://github.com/schooltape/schooltape/blob/main/src/plugins/plugins.json) file
+3. Create your plugin, a good example is [`timetable-labels`](https://github.com/schooltape/schooltape/blob/main/src/plugins/timetable-labels/timetable-labels.js)
 4. Submit a PR
 
 ### Themes
 
 This project uses [Catppuccin](https://github.com/catppuccin/catppuccin)
 
-1. [Open an issue](https://github.com/42Willow/schooltape/issues/new/choose) describing your change to the theme to get your idea approved
-2. [Create](https://github.com/42Willow/schooltape/fork) a fork of the repository
-3. Make your changes to [`catppuccin.css`](https://github.com/42Willow/schooltape/blob/main/src/themes/catppuccin.css)
+1. [Open an issue](https://github.com/schooltape/schooltape/issues/new/choose) describing your change to the theme to get your idea approved
+2. [Create](https://github.com/schooltape/schooltape/fork) a fork of the repository
+3. Make your changes to [`catppuccin.css`](https://github.com/schooltape/schooltape/blob/main/src/themes/catppuccin.css)
 4. Submit a PR
 
 ### Snippets
 
 #### Public Snippets
 
-1. [Open an issue](https://github.com/42Willow/schooltape/issues/new/choose) describing your snippet to get your idea approved
-2. Add your plugin to the [`snippets.json`](https://github.com/42Willow/schooltape/blob/main/src/snippets/snippets.json) file
+1. [Open an issue](https://github.com/schooltape/schooltape/issues/new/choose) describing your snippet to get your idea approved
+2. Add your plugin to the [`snippets.json`](https://github.com/schooltape/schooltape/blob/main/src/snippets/snippets.json) file
 3. Create your snippet
 4. Submit a PR
 
@@ -106,4 +106,4 @@ Here is a handy guide on [what a pull request](https://docs.github.com/articles/
 
 ## Contributing Guidelines
 
-Please follow the styling and contributing guidelines outlined [here](https://github.com/42Willow/schooltape/blob/main/CONTRIBUTING.md).
+Please follow the styling and contributing guidelines outlined [here](https://github.com/schooltape/schooltape/blob/main/CONTRIBUTING.md).

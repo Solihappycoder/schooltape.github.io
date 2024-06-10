@@ -6,7 +6,7 @@ outline: deep
 
 ## From GitHub releases
 
-1. Go to the [latest release](https://github.com/42willow/schooltape/releases/latest).
+1. Go to the [latest release](https://github.com/schooltape/schooltape/releases/latest).
 2. Download the `.zip` file for your browser.
 3. Extract the `.zip` file.
 4. Follow the instructions for your browser:
@@ -41,7 +41,7 @@ Installing from source is not recommended for most users.
 
    ```sh
    cd path/to/where/you/want/schooltape/to/be
-   git clone https://github.com/42willow/schooltape.git
+   git clone https://github.com/schooltape/schooltape.git
    cd schooltape
    ```
 

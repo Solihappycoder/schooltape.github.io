@@ -1,6 +1,6 @@
 # Microsoft Edge
 
-1. Download the `*-chrome.zip` from the [releases page](https://github.com/42willow/schooltape/releases/latest).
+1. Download the `*-chrome.zip` from the [releases page](https://github.com/schooltape/schooltape/releases/latest).
 2. Unzip the file.
 3. Navigate to `edge://extensions`
 4. Turn on __Developer Mode__ near the bottom left.
