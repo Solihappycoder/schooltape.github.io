@@ -21,7 +21,7 @@ features:
   - icon: 🔎
     title: Schoolbox Detection
     details: Automatic detection of any Schoolbox instance!
-  - icon: 🐱
+  - icon: 🎨
     title: Theme Customisation
     details: Save your eyes from the harsh white of Schoolbox.
   - icon: 🔌
@@ -29,7 +29,7 @@ features:
     details: Built with a plugin system in mind, allowing for easy extensibility. 
     link: /ecosystem/plugins
     linkText: Explore Plugins
-  - icon: 📄
+  - icon: 🖌️
     title: Snippet Ecosystem
     details: Schooltape has a growing ecosystem of snippets, allowing for easy CSS modifications.
     link: /ecosystem/snippets
