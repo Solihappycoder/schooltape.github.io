@@ -9,7 +9,7 @@ Lets compare the features of Schooltape to other Schoolbox web extensions.
 
 | Features               | Schooltape      | Coolbox | Better Schoolbox  |
 | ---------------------- | --------------- | ------- | ----------------- |
-| Works on any Schoolbox | ✅              | ❌      | ❌                |
+| Works on any Schoolbox | ✅              | ❌      | 🟠 Partial        |
 | Modern icons           | ✅              | ✅      | ❌                |
 | Subheader revamp       | ✅              | ❓      | ❌                |
 | Rearrangable homepage  | ❌              | ✅      | ❌                |
