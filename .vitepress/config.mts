@@ -5,7 +5,7 @@ const titleSuffix = ' – Schooltape';
 const description = 'A web extension that adds themes, plugins, and snippets to Schoolbox.';
 const ogTitle = `${title}${titleSuffix}`;
 const ogUrl = 'https://schooltape.github.io';
-const ogImage = `${ogUrl}/social-preview.png`;
+const ogImage = `${ogUrl}/schooltape.png`;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
