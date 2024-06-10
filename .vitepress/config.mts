@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 const title = 'A free an open source web extension for Schoolbox!';
-const titleSuffix = ' – Schooltape';
 const description = 'A web extension that adds themes, plugins, and snippets to Schoolbox.';
 const ogUrl = 'https://schooltape.github.io';
 const ogImage = `${ogUrl}/previews/preview.webp`;
@@ -9,14 +8,18 @@ const ogImage = `${ogUrl}/previews/preview.webp`;
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Schooltape",
-  titleTemplate: `:title${titleSuffix}`,
+  titleTemplate: `:title - Schooltape`,
   description: "A free an open source web extension for Schoolbox!",
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: title }],
+    ['meta', { property: 'og:sitename', content: "Schooltape" }],
     ['meta', { property: 'og:image', content: ogImage }],
     ['meta', { property: 'og:url', content: ogUrl }],
     ['meta', { property: 'og:description', content: description }],
+    ['meta', { name: 'twitter:image:src', content: ogImage }],
+    ['meta', { name: 'twitter:title', content: title }],
+    ['meta', { name: 'twitter:description', content: description }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'google-site-verification', content: 'MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY' }],
     [
