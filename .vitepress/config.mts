@@ -3,9 +3,8 @@ import { defineConfig } from 'vitepress'
 const title = 'A free an open source web extension for Schoolbox!';
 const titleSuffix = ' – Schooltape';
 const description = 'A web extension that adds themes, plugins, and snippets to Schoolbox.';
-const ogTitle = `${title}${titleSuffix}`;
 const ogUrl = 'https://schooltape.github.io';
-const ogImage = `${ogUrl}/schooltape.png`;
+const ogImage = `${ogUrl}/previews/preview.webp`;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,7 +13,7 @@ export default defineConfig({
   description: "A free an open source web extension for Schoolbox!",
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: ogTitle }],
+    ['meta', { property: 'og:title', content: title }],
     ['meta', { property: 'og:image', content: ogImage }],
     ['meta', { property: 'og:url', content: ogUrl }],
     ['meta', { property: 'og:description', content: description }],
