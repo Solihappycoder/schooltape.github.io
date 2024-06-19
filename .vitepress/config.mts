@@ -22,18 +22,20 @@ export default defineConfig({
     ['meta', { name: 'twitter:description', content: ogDescription }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'google-site-verification', content: 'MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY' }],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HZBYCLKHJJ' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-HZBYCLKHJJ');`
-    ]
+    ['script', { defer: '', src: 'https://cloud.umami.is/script.js', 'data-website-id': 'ea226262-8179-4564-9699-93feae99e84b' }],
+    // [
+    //   'script',
+    //   { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HZBYCLKHJJ' }
+      
+    // ],
+    // [
+    //   'script',
+    //   {},
+    //   `window.dataLayer = window.dataLayer || [];
+    //   function gtag(){dataLayer.push(arguments);}
+    //   gtag('js', new Date());
+    //   gtag('config', 'G-HZBYCLKHJJ');`
+    // ]
   ],
   srcDir: './src',
   themeConfig: {
