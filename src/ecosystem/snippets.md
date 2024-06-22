@@ -2,8 +2,8 @@
 
 ## Default Snippets
 
-- __Hide PFP:__ Hide your profile picture across Schoolbox.
-- __Censor:__ Censors all text and images. This is intended for development purposes.
+- **Hide PFP:** Hide your profile picture across Schoolbox.
+- **Censor:** Censors all text and images. This is intended for development purposes.
 
 ## User Snippets
 

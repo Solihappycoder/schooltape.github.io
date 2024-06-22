@@ -1,10 +1,14 @@
 {
+  "devDependencies": {
+    "markdownlint": "^0.34.0",
+    "prettier": "3.3.2",
+    "vitepress": "^1.2.3"
+  },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "devDependencies": {
-    "vitepress": "^1.2.3"
+    "docs:preview": "vitepress preview",
+    "docs:lint": "markdownlint '**/*.md' --ignore node_modules",
+    "docs:format": "prettier --write '**/*.md'"
   }
 }

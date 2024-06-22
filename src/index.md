@@ -26,7 +26,7 @@ features:
     details: Save your eyes from the harsh white of Schoolbox.
   - icon: 🔌
     title: Plugin Support
-    details: Built with a plugin system in mind, allowing for easy extensibility. 
+    details: Built with a plugin system in mind, allowing for easy extensibility.
     link: /ecosystem/plugins
     linkText: Explore Plugins
   - icon: 🖌️

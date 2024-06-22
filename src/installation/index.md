@@ -46,17 +46,18 @@ Installing from source is not recommended for most users.
    ```
 
 2. Install [Bun](https://bun.sh/)
+
    - For Linux and MacOS
 
-      ```bash
-      curl -fsSL https://bun.sh/install | bash
-      ```
+     ```bash
+     curl -fsSL https://bun.sh/install | bash
+     ```
 
    - For Windows
 
-      ```powershell
-      powershell -c "irm bun.sh/install.ps1 | iex"
-      ```
+     ```powershell
+     powershell -c "irm bun.sh/install.ps1 | iex"
+     ```
 
 3. Install dependencies:
 
@@ -74,13 +75,14 @@ Installing from source is not recommended for most users.
 
    - For Firefox:
 
-      ```sh
-      bun build:firefox
-      ```
+     ```sh
+     bun build:firefox
+     ```
 
 5. Load the extension:
 
    - For Chrome / Chromium-based:
+
      1. Open `chrome://extensions/`.
      2. Enable Developer mode.
      3. Click on `Load unpacked`.
