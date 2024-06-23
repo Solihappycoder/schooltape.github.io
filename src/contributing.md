@@ -18,7 +18,7 @@ If you haven't used Git before, I'd highly recommend reading [Pro Git](https://g
 
    ```bash
    cd /path/to/your/working/directory
-   git clone https://github.com/your_username/schooltape
+   git clone https://github.com/your_username/schooltape # [!code focus]
    cd schooltape
    ```
 

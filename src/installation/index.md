@@ -41,43 +41,47 @@ Installing from source is not recommended for most users.
 
    ```sh
    cd path/to/where/you/want/schooltape/to/be
-   git clone https://github.com/schooltape/schooltape.git
+   git clone https://github.com/schooltape/schooltape.git # [!code focus]
    cd schooltape
    ```
 
 2. Install [Bun](https://bun.sh/)
 
-   - For Linux and MacOS
+   ::: code-group
 
-     ```bash
-     curl -fsSL https://bun.sh/install | bash
-     ```
+   ```bash [Linux]
+   curl -fsSL https://bun.sh/install | bash
+   ```
 
-   - For Windows
+   ```bash [MacOS]
+   curl -fsSL https://bun.sh/install | bash
+   ```
 
-     ```powershell
-     powershell -c "irm bun.sh/install.ps1 | iex"
-     ```
+   ```powershell [Windows]
+   powershell -c "irm bun.sh/install.ps1 | iex"
+   ```
 
-3. Install dependencies:
+   :::
 
-   ```sh
+3. Install dependencies
+
+   ```bash
    bun install
    ```
 
-4. Build the extension:
+4. Build the extension
 
-   - For Chrome:
+   ::: code-group
 
-     ```sh
-     bun build
-     ```
+   ```bash [Chrome]
+   bun build
+   ```
 
-   - For Firefox:
+   ```bash [Firefox]
+   bun build:firefox
+   ```
 
-     ```sh
-     bun build:firefox
-     ```
+   :::
 
 5. Load the extension:
 
