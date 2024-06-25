@@ -98,7 +98,7 @@ Installing from source is not recommended for most users.
      3. Select the `manifest.json` file in the `dist` directory in the `schooltape` directory.
 
 ::: tip
-You can also use `bun dev` or `bun dev:firefox` to build the extension in development mode, which will automatically reload the extension when you make changes. More information can be found in the [contributing guide](/contributing).
+You can also use `bun dev` or `bun dev:firefox` to build the extension in development mode, which will automatically reload the extension when you make changes. More information can be found in the [contributing guide](/contributing/index.md).
 :::
 
 ::: warning

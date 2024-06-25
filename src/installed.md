@@ -16,4 +16,4 @@ width="500"
 >
 :::
 
-You can also help to improve Schooltape by [contributing](contributing.md) to the project.
+You can also help to improve Schooltape by [contributing](/contributing/index.md) to the project.
