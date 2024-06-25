@@ -72,7 +72,17 @@ export default defineConfig({
               { text: 'Safari', link: '/safari' }
             ]
           },
-          { text: 'Contributing', link: '/contributing' },
+          {
+            text: 'Contributing',
+            collapsed: false,
+            link: '/',
+            base: '/contributing',
+            items: [
+              { text: 'Plugins', link: '/plugins' },
+              { text: 'Themes', link: '/themes' },
+              { text: 'Snippets', link: '/snippets' },
+            ]
+          },
           { text: 'Compare', link: '/compare' }
         ]
       },
