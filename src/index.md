@@ -40,6 +40,8 @@ features:
 
 Schooltape was built with the intention of improving the Schoolbox experience for everyone, regardless of their Schoolbox instance. Read more about how we compare [here](/compare).
 
+![Schooltape preview](https://raw.githubusercontent.com/schooltape/schooltape/main/assets/previews/preview.webp)
+
 <!-- <div style="margin: auto; width: 100%; max-width: 900px; text-align: center;">
   <video style="border-radius: 12px;" src="todo" controls></video>
   <br />
