@@ -4,6 +4,23 @@ outline: deep
 
 # Installation
 
+## From web stores
+
+The extension is available on Firefox Add-ons, and is currently awaiting approval for the Chrome Web Store.
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/schooltape/"><img src="https://img.shields.io/badge/Firefox_Add--ons-f5a97f?style=for-the-badge&logo=Firefox-Browser&logoColor=24273a"></a>
+
+::: info
+Schooltape is currently unavailable in the following web stores:
+
+- Chrome Web Store
+- Edge Add-ons
+- Opera Add-ons
+- Safari Extensions
+
+Please install Schooltape from GitHub releases or source code.
+:::
+
 ## From GitHub releases
 
 1. Go to the [latest release](https://github.com/schooltape/schooltape/releases/latest).
@@ -16,20 +33,6 @@ outline: deep
    - [Safari](safari.md)
    - [Other](chrome.md)
 5. Enjoy Schooltape!
-
-## From web stores
-
-::: info
-Schooltape is currently unavailable in the following web stores:
-
-- Chrome Web Store
-- Firefox Add-ons
-- Edge Add-ons
-- Opera Add-ons
-- Safari Extensions
-
-Please install Schooltape from GitHub releases or source code.
-:::
 
 ## From source
 
